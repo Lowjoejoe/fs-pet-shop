@@ -24,6 +24,13 @@ $ touch httpServer.js
 
 Your task is to build a Node server application that handles the following HTTP requests and sends back the correct HTTP response. Where appropriate, your application must read the correct data from the `pets.json` file and include it in the response body. Additionally, your application must send the appropriate response status code and `Content-Type` header.
 
+* start some server
+* create some `endpoint` some url 
+* read correct data from `pets.json`
+* must return in response body 
+* send status code 
+* send content Header
+
 | Request Method | Request URL | Response Status | Response Content-Type | Response Body                                                                                              |
 |----------------|-------------|-----------------|-----------------------|------------------------------------------------------------------------------------------------------------|
 | `GET`          | `/pets`     | `200`           | `application/json`    | `[{ "age": 7, "kind": "rainbow", "name": "fido" }, { "age": 5, "kind": "snake", "name": "Buttons" }]` |

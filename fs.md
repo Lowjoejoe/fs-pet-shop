@@ -50,7 +50,9 @@ $ node pets.js read
   { age: 5, kind: 'snake', name: 'Buttons' } ]
 ```
 
-Additionally, your application must handle the `read` subcommand when given an index. In this case, it must read the `pets.json` file, parse its data to a native JavaScript object, access the correct record, and log it to the console. If the call to the filesystem fails for any reason, it should throw the resulting error.
+*Additionally, your application must handle the `read` subcommand when given an index. 
+*In this case, it must read the `pets.json` file, parse its data to a native JavaScript object, access the correct record, and log it to the console. 
+*If the call to the filesystem fails for any reason, it should throw the resulting error.
 
 ```shell
 $ node pets.js read 0
